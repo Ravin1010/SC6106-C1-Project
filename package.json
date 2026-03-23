@@ -13,16 +13,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/Ravin1010/SC6106-C1-Project/issues"
   },
   "homepage": "https://github.com/Ravin1010/SC6106-C1-Project#readme",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
-    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
     "@types/node": "^22.19.15",
-    "hardhat": "^3.2.0",
+    "ethers": "^6.16.0",
+    "hardhat": "^2.22.3",
+    "ts-node": "^10.9.2",
     "typescript": "~5.8.0"
   },
   "dependencies": {

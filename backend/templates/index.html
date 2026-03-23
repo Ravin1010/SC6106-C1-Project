@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+<div class="container">
+<h2>Hybrid PayNow DApp</h2>
+
+<input type="text" id="payer" placeholder="Enter payer address">
+<input type="text" id="payee" placeholder="Enter payee address">
+<input type="number" id="amount" placeholder="Amount (ETH)">
+
+<button onclick="transfer()">Transfer</button>
+<button onclick="transaction()">View Last Transaction</button>
+
+<p id="view_payer"></p>
+<p id="view_payee"></p>
+<p id="view_amount"></p>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
